@@ -8,17 +8,28 @@ A Leiningen plugin to convert all the Gorilla REPL files to raw Markdown files, 
 
 ## Usage
 
-1. Settings
-Put `[lein-gorildown "0.1.0-SNAPSHOT"]` into the `:plugins` vector of your `project.clj` or `~/.lein/profiles.clj`.
+#### Settings
 
-2. Excute
-`$ lein gorildown`
-Or you can specify the target directory you want
-`$ lein gorildown /your/target/path/`
+Put this plugin information into the `:plugins` vector of your `project.clj` or `~/.lein/profiles.clj`.
 
-3. Output
-If you have `src/gorilla/nb1.clj` and `src/gorilla/nb2.clj`, 
-then `src/gorilla/nb1.clj.md` and `src/gorilla/nb2.clj.md` will be generated.
+```clojure
+[lein-gorildown "0.1.0-SNAPSHOT"]
+```
+
+#### Excution
+
+```Shell
+# Apply to the current project Gorilla REPL files
+$ lein gorildown
+
+# Or you can specify the target directory you want
+$ lein gorildown /your/target/path/
+```
+
+#### Output
+
+  If you have `src/gorilla/nb1.clj` and `src/gorilla/nb2.clj`, 
+  then `src/gorilla/nb1.clj.md` and `src/gorilla/nb2.clj.md` will be generated.
 
 ## License
 
