@@ -1,6 +1,12 @@
 # lein-gorildown
 
-A Leiningen plugin to convert all the Gorilla REPL files to raw Markdown files, based on [ksseono/gorildown](https://github.com/ksseono/gorildown) project.
+A Leiningen plugin to convert all the [Gorilla REPL](http://gorilla-repl.org/) files to raw Markdown files, based on [ksseono/gorildown](https://github.com/ksseono/gorildown) project.
+
+Gorilla REPL provide [Jupyter](http://jupyter.org/) like web UI and save the notebooks in the Clojure files with some comments following its own notations to render notebook styles later. 
+
+But it's not convinient when you want to share others the notebooks as they are and also it's not a good way to force others to use Gorilla REPL only to look throught the content. 
+
+`lein-gorildown` convert the Gorilla REPL files(notebooks) in your project into the raw Markdown files so that you can easily share them. You can check the sample results [here](https://github.com/ksseono/lein-gorildown/tree/master/examples).
 
 ## Dependencies
 
