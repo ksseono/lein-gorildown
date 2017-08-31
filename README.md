@@ -1,10 +1,10 @@
 # lein-gorildown
 
-A Leiningen plugin to convert all the Gorilla REPL files to raw Markdown files.
+A Leiningen plugin to convert all the Gorilla REPL files to raw Markdown files, based on [ksseono/gorildown](https://github.com/ksseono/gorildown) project.
 
 ## Dependencies
 
-[[gorildown "0.1.0-SNAPSHOT"]](https://github.com/ksseono/gorildown)
+    [gorildown "0.1.0-SNAPSHOT"]
 
 ## Usage
 
