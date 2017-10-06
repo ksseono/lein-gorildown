@@ -10,7 +10,7 @@
 
 ```clojure
 (ns datomic-doc.getting-started
-  (:require	[clojure.core.async :refer (<!!)]
+  (:require [clojure.core.async :refer (<!!)]
             [datomic.client :as client]))
 ```
 
